@@ -33,14 +33,9 @@ fn count_letters(word: &str) -> HashMap<char, usize> {
     counts
 }
 
-fn all_words(rec: &csv_helper::Record) -> Vec<String> {
-    let fields = [
-        &rec.sw, &rec.pl, &rec.en, &rec.fr, &rec.la, &rec.nl, &rec.bs, &rec.ca, &rec.es, &rec.sk,
-        &rec.pt, &rec.hr, &rec.it, &rec.sl, &rec.de,
-    ];
-
-    let max_len = fields.iter().map(|f| f.chars().count()).max().unwrap_or(0);
-    let unique_letters = fields
+fn all_words(words: Vec<String>) -> Vec<String> {
+    let max_len = words.iter().map(|f| f.chars().count()).max().unwrap_or(0);
+    let unique_letters = words
         .iter()
         .flat_map(|f| f.chars())
         .collect::<std::collections::HashSet<char>>()
@@ -49,10 +44,11 @@ fn all_words(rec: &csv_helper::Record) -> Vec<String> {
 
     // Compute max frequency of each letter across all words
     let mut max_letter_freq: HashMap<char, usize> = HashMap::new();
-    for field in &fields {
-        let counts = count_letters(field);
+    for word in &words {
+        let counts = count_letters(word);
         for (c, count) in counts {
-            max_letter_freq.entry(c)
+            max_letter_freq
+                .entry(c)
                 .and_modify(|e| *e = (*e).max(count))
                 .or_insert(count);
         }
@@ -99,6 +95,39 @@ fn test() {
     println!("Distance between '{}' and '{}' is {}", word1, word2, dist);
 }
 
+fn minimize_trans_cost(words: &Vec<String>) -> String {
+    // all_words takes ownership of a Vec<String>, so clone the vector here
+    let possible_words = all_words(words.clone());
+    println!("Generated {} possible words", possible_words.len());
+
+    let best_fit = possible_words
+        .iter()
+        .min_by(|w1, w2| {
+            // Pass references to total_distance to avoid moving `words`
+            let dist1 = letter_helper::total_distance(w1.as_str(), words);
+            let dist2 = letter_helper::total_distance(w2.as_str(), words);
+            dist1.partial_cmp(&dist2).unwrap()
+        })
+        .unwrap();
+    best_fit.clone()
+}
+
+fn get_fields(record: &csv_helper::Record) -> Vec<String> {
+    vec![
+        // record.bs.clone(),
+        record.de.clone(),
+        record.en.clone(),
+        record.es.clone(),
+        record.fr.clone(),
+        record.it.clone(),
+        // record.la.clone(),
+        record.nl.clone(),
+        record.pl.clone(),
+        record.pt.clone(),
+        // record.sk.clone(),
+        // record.sl.clone(),
+    ]
+}
 fn main() {
     let records = csv_helper::read_csv("swadesh/norm.csv").expect("Failed to read CSV file");
     println!(
@@ -106,7 +135,13 @@ fn main() {
         records.len()
     );
     test();
-    let all_words = all_words(&(records[0]));
+    let fields = get_fields(&records[0]);
+    let all_words = all_words(fields);
 
-    println!("All words: {:?}", all_words);
+    // println!("All words: {:?}", all_words);
+
+    println!("Minimizing...");
+    let f = &get_fields(&records[11]);
+    let best_word = minimize_trans_cost(f);
+    println!("Best word: {} = {:?}", best_word, f);
 }
