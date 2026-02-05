@@ -86,12 +86,6 @@ fn all_words(words: Vec<String>) -> Vec<String> {
 
     result
 }
-fn test() {
-    let word1 = "hello";
-    let word2 = "hallo";
-    let dist = letter_helper::distance(word1, word2);
-    println!("Distance between '{}' and '{}' is {}", word1, word2, dist);
-}
 
 fn minimize_trans_cost(words: &Vec<String>) -> String {
     // all_words takes ownership of a Vec<String>, so clone the vector here
@@ -126,20 +120,44 @@ fn get_fields(record: &csv_helper::Record) -> Vec<String> {
         // record.sl.clone(),
     ]
 }
+
+fn find_record_by_word<'a>(records: &'a [csv_helper::Record], target_word: &str) -> Option<&'a csv_helper::Record> {
+    records.iter().find(|record| {
+        let fields = get_fields(record);
+        fields.iter().any(|word| word.to_lowercase() == target_word.to_lowercase())
+    })
+}
+
 fn main() {
     let records = csv_helper::read_csv("swadesh/norm.csv").expect("Failed to read CSV file");
     println!(
         "CSV file read successfully, number of records: {}",
         records.len()
     );
-    test();
-    let fields = get_fields(&records[0]);
-    let all_words = all_words(fields);
 
-    // println!("All words: {:?}", all_words);
+    // Get command line arguments
+    let args: Vec<String> = std::env::args().collect();
 
-    println!("Minimizing...");
-    let f = &get_fields(&records[11]);
-    let best_word = minimize_trans_cost(f);
-    println!("Best word: {} = {:?}", best_word, f);
+    if args.len() < 2 {
+        eprintln!("Usage: {} <word>", args[0]);
+        eprintln!("Example: {} father", args[0]);
+        std::process::exit(1);
+    }
+
+    let target_word = &args[1];
+
+    // Find the record containing the target word
+    match find_record_by_word(&records, target_word) {
+        Some(record) => {
+            println!("Found record containing '{}'", target_word);
+            let fields = get_fields(record);
+            println!("Minimizing...");
+            let best_word = minimize_trans_cost(&fields);
+            println!("Best word: {} = {:?}", best_word, fields);
+        }
+        None => {
+            eprintln!("Error: Word '{}' not found in any record", target_word);
+            std::process::exit(1);
+        }
+    }
 }
