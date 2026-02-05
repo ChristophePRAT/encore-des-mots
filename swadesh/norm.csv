@@ -1,0 +1,208 @@
+,sw,pl,en,fr,la,nl,bs,ca,es,sk,pt,hr,it,sl,de
+0,jag,ja,i,je,ego,ik,ja,jo,yo,ja,eu,ja,io,jaz,ich
+1,du,ty,you ,tu,tu,jij,ti,tu,tu,ty,tu,ti,tu,ti,du
+2,han,on,he,il,is,hij,on,ell,el,on,ele,on,lui,on,er
+3,vi,my,we,nous,nos,wij,mi,nosaltres,nosotros,my,nos,mi,noi,mi,wir
+4,ni,wy,you ,vous,vos,jullie,vi,vosaltres,vosotros,vy,vos,vi,voi,vi,ihr
+5,de,oni,they,ils,ii,zij,ona,ells,ellos,ony,eles,ona,loro,oni,sie
+6,det har,ten,this,ceci,hic,deze,ovo,aquest,este,to,este,ovo,questo,to,dieses
+7,det dar,tamto,that,cela,ille,die,to,aquell,ese,to,aquele,to,quello,oni,jenes
+8,har,tu,here,ici,hic,hier,ovdje,aqui,aqui,sem,aqui,ovdje,qui,tukaj,hier
+9,dar,tam,there,la,ibi,daar,tamo,alla,ahi,tam,la,tamo,la,tam,dort
+10,vem,kto,who,qui,quis,wie,ko,qui,quien,kto,quem,tko,chi,kdo,wer
+11,vad,co,what,quoi,quid,wat,sta,que,que,co,que,sto,che,kaj,was
+12,var,gdzie,where,ou,ubi,waar,gdje,on,donde,kde,onde,gdje,dove,kje,wo
+13,nar,kiedy,when,quand,quando,wanneer,kad,quan,cuando,ked,quando,kad,quando,kdaj,wann
+14,hur,jak,how,comment,quam,hoe,kako,com,como,ako,como,kako,come,kako,wie
+15,inte,nie,not,ne...pas,non,niet,ne,no,no,nie,nao,ne,non,ne,nicht
+16,alla,wszystko,all,tout,omnis,al,sve,tot,todo,vsetko,todo,sve,tutto,vse,alle
+17,manga,mnostwo,many,plusieurs,multi,veel,mnogo,molt,muchos,vela,muito,mnogo,molti,mnogo,viele
+18,nagra,troche,some,quelques,aliqui,enkele,nekoliko,algun,algunos,niekolko,algum,nekoliko,alcuni,nekoliko,einige
+19,fa,niewiele,few,peu,pauci,weinig,malo,poc,poco,malo,pouco,malo,pochi,malo,wenige
+20,annan,inny,other,autre,alter,ander,drugi,altre,otro,druhy,outro,ini,altro,drugi,andere
+21,ett,jeden,one,un,unus,een,jedan,un,uno,jeden,um,jedan,uno,ena,eins
+22,tva,dwa,two,deux,duo,twee,dva,dos,dos,dva,dois,dva,due,dve,zwei
+23,tre,trzy,three,trois,tres,drie,tri,tres,tres,tri,tres,tri,tre,tri,drei
+24,fyra,cztery,four,quatre,quattuor,vier,cetiri,quatre,cuatro,styri,quatro,cetiri,quattro,stiri,vier
+25,fem,piec,five,cinq,quinque,vijf,pet,cinc,cinco,pat,cinco,pet,cinque,pet,funf
+26,stor,wielki,big,grand,magnus,groot,velik,gran,grande,velky,grande,velik,grande,velik,gross
+27,lang,dlugi,long,long,longus,lang,dug,llarg,largo,dlhy,longe,dug,lungo,dolg,lang
+28,bred,szeroki,wide,large,latus,breed,sirok,ample,ancho,siroky,largo,sirok,largo,sirok,breit
+29,tjock,gruby,thick,epais,creber,dik,tust,gruixut,gordo,tucny,grosso,tust,spesso,debel,dick
+30,tung,ciezki,heavy,lourd,gravis,zwaar,tezak,pesat,pesado,tazky,pesado,tezak,pesante,tezek,schwer
+31,liten,maly,small,petit,parvus,klein,mal,petit,pequeno,maly,pequeno,mal,piccolo,majhen,klein
+32,kort,krotki,short,court,brevis,kort,kratak,curt,corto,kratky,curto,kratak,corto,kratek,kurz
+33,trang,waski,narrow,etroit,angustus,smal,uzak,estret,estrecho,uzky,estreito,uzak,stretto,ozek,eng
+34,tunn,cienki,thin,mince,macer,dun,tanak,prim,delgado,tenky,tenue,tanak,sottile,tanek,dunn
+35,kvinna,kobieta,woman,femme,femina,vrouw,zena,dona,mujer,zena,mulher,zena,donna,zenska,frau
+36,man,mezczyzna,man ,homme,vir,man,muskarac,home,hombre,muz,homem,muskarac,uomo,moski,mann
+37,manniska,czlowiek,man ,homme,homo,mens,covjek,persona,hombre,clovek,homem,covjek,uomo,clovek,mensch
+38,barn,dziecko,child,enfant,puer,kind,dijete,nen,nino,dieta,crianca,dijete,bambino,otrok,kind
+39,hustru,malzonka,wife,femme,uxor,vrouw,zena,muller,esposa,zena,esposa,zena,moglie,zena,frau
+40,man,maz,husband,mari,maritus,man,suprug,marit,esposo,manzel,esposo,suprug,marito,moz,mann
+41,mamma,matka,mother,mere,mater,moeder,majka,mare,madre,matka,mae,majka,madre,mati,mutter
+42,pappa,ojciec,father,pere,pater,vader,otac,pare,padre,otec,pai,otac,padre,oce,vater
+43,djur,zwierze,animal,animal,animal,dier,zivotinja,animal,animal,zviera,animal,zivotinja,animale,zver,tier
+44,fisk,ryba,fish,poisson,piscis,vis,riba,peix,pez,ryba,peixe,riba,pesce,riba,fisch
+45,fagel,ptak,bird,oiseau,avis,vogel,ptica,ocell,ave,vtak,ave,ptica,uccello,ptica,vogel
+46,hund,pies,dog,chien,canis,hond,pas,gos,perro,pes,cao,pas,cane,pes,hund
+47,lus,wesz,louse,pou,pedis,luis,us,poll,piojo,vos,piolho,us,pidocchio,us,laus
+48,orm,waz,snake,serpent,serpens,slang,zmija,serp,serpiente,had,cobra,zmija,serpente,kaca,schlange
+49,mask,czerw,worm,ver,vermis,worm,crv,cuc,gusano,cervik,verme,crv,verme,crv,wurm
+50,trad,drzewo,tree,arbre,arbor,boom,drvo,arbre,arbol,strom,arvore,drvo,albero,drevo,baum
+51,skog,bor,forest,foret,silva,woud,gora,bosc,bosque,les,floresta,gora,foresta,gozd,wald
+52,pinne,palka,stick,baton,fustis,stok,palica,basto,palo,tyc,bastao,palica,bastone,palica,stock
+53,frukt,owoc,fruit,fruit,fructus,fruit,plod,fruit,fruta,ovocie,fruta,plod,frutta,plod,frucht
+54,fro,nasionko,seed,graine,semen,zaad,sjeme,llavor,semilla,semeno,semente,sjeme,seme,seme,samen
+55,lov,lisc,leaf,feuille,folium,blad,list,fulla,hoja,list,folha,list,foglia,list,blatt
+56,rot,korzen,root,racine,radix,wortel,korijen,arrel,raiz,koren,raiz,korijen,radice,koren,wurzel
+57,bark,kora,bark ,ecorce,cortex,schors,kora,escorca,corteza,kora,casca,kora,corteccia,skorja,rinde
+58,blomma,kwiat,flower,fleur,flos,bloem,cvijet,flor,flor,kvet,flor,cvijet,fiore,cvet,blume
+59,gras,trawa,grass,herbe,herba,gras,trava,herba,hierba,trava,grama,trava,erba,trava,gras
+60,rep,sznur,rope,corde,funis,touw,kanap,corda,cuerda,snura,corda,konop,corda,vrv,seil
+61,hud,skora,skin,peau,cutis,huid,koza,pell,piel,koza,pele,koza,pelle,koza,haut
+62,kott,mieso,meat,viande,caro,vlees,meso,carn,carne,maso,carne,meso,carne,meso,fleisch
+63,blod,krew,blood,sang,sanguis,bloed,krv,sang,sangre,krv,sangue,krv,sangue,kri,blut
+64,ben,kosc,bone,os,os,been,kost,os,hueso,kost,osso,kost,osso,kost,knochen
+65,fett,sadlo,fat ,graisse,adeps,vet,salo,gras,grasa,tuk,gordura,salo,grasso,mascoba,fett
+66,agg,jajko,egg,oeuf,ovum,ei,jaje,ou,huevo,vajce,ovo,jaje,uovo,jajce,ei
+67,horn,rog,horn,corne,cornu,hoorn,rog,banya,cuerno,roh,chifre,rog,corno,rog,horn
+68,svans,ogon,tail,queue,cauda,staart,rep,cua,cola,chvost,cauda,rep,coda,rep,schwanz
+69,fjader,pioro,feather,plume,penna,veer,pero,ploma,pluma,pero,pena,pero,piuma,pero,feder
+70,har,wlosy,hair,cheveu,capillus,haar,vlas,pel,cabello,vlasy,pelo,vlas,capelli,lasje,haar
+71,huvud,glowa,head,tete,caput,hoofd,glava,cap,cabeza,hlava,cabeca,glava,testa,glava,kopf
+72,ora,ucho,ear,oreille,auris,oor,uho,orella,oreja,ucho,orelha,uho,orecchio,uho,ohr
+73,oga,oko,eye,oeil,oculus,oog,oko,ull,ojo,oko,olho,oko,occhio,oko,auge
+74,nasa,nos,nose,nez,nasus,neus,nos,nas,nariz,nos,nariz,nos,naso,nos,nase
+75,mun,usta,mouth,bouche,os,mond,usta,boca,boca,usta,boca,usta,bocca,usta,mund
+76,tand,zab,tooth,dent,dens,tand,zub,dent,diente,zub,dente,zub,dente,zob,zahn
+77,tunga,jezyk,tongue,langue,lingua,tong,jezik,llengua,lengua,jazyk,lingua,jezik,lingua,jezik,zunge
+78,nagel,paznokiec,fingernail,ongle,unguis,vingernagel,nokat,ungla,una,necht na ruke,unha,nokat,unghia,noht,fingernagel
+79,fot,stopa,foot,pied,pes,voet,stopalo,peu,pie,noha,pe,stopalo,piede,stopalo,fuss
+80,ben,noga,leg,jambe,crus,been,noga,cama,pierna,noha ,perna,noga,gamba,noga,bein
+81,kna,kolano,knee,genou,genu,knie,koljeno,genoll,rodilla,koleno,joelho,koljeno,ginocchio,koleno,knie
+82,hand,reka,hand,main,manus,hand,ruka,ma,mano,ruka,mao,ruka,mano,roka,hand
+83,vinge,skrzydlo,wing,aile,ala,vleugel,krilo,ala,ala,kridlo,asa,krilo,ala,krilo,flugel
+84,mage,brzuch,belly,ventre,venter,buik,trbuh,panxa,barriga,brucho,barriga,trbuh,pancia,trebuh,bauch
+85,inalvor,wnetrznosci,guts,entrailles,intestina,ingewanden,utroba,budells,entranas,vnutornosti,tripas,utroba,intestino,drobovje,eingeweide
+86,hals,szyja,neck,cou,collum,nek,vrat,coll,cuello,krk,pescoco,vrat,collo,vrat,hals
+87,rygg,plecy,back,dos,tergum,rug,leda,esquena,espalda,chrbat,costas,leda,schiena,hrbet,rucken
+88,brost,piers,breast,sein,pectus,borst,prsa,pit,pecho,prsia,peito,prsa,petto,prsi,brust
+89,hjarta,serce,heart,coeur,cor,hart,srce,cor,corazon,srdce,coracao,srce,cuore,srce,herz
+90,lever,watroba,liver,foie,iecur,lever,jetra,fetge,higado,pecen,figado,jetra,fegato,jetra,leber
+91,dricka,pic,drink,boire,bibere,drinken,piti,beure,beber,pit,beber,piti,bere,piti,trinken
+92,ata,jesc,eat,manger,edere,eten,jesti,menjar,comer,jest,comer,jesti,mangiare,jesti,essen
+93,bita,gryzc,bite,mordre,mordere,bijten,gristi,mossegar,morder,uhryznut,morder,gristi,mordere,gristi,beissen
+94,suga,ssac,suck,sucer,sugere,zuigen,sisati,xuclar,chupar,cicat,sugar,sisati,succhiare,sesati,saugen
+95,spotta,pluc,spit,cracher,sputare,spuwen,pljuvati,escopir,escupir,pluvat,cuspir,pljuvati,sputare,pljuvati,spucken
+96,krakas,wymiotowac,vomit,vomir,vomere,braken,bljuvati,vomitar,vomitar,sposobit davenie,vomitar,bljuvati,vomitare,bruhati,erbrechen
+97,blasa,dac,blow,souffler,flare,blazen,duhati,bufar,soplar,fukat,soprar,duhati,soffiare,pihati,blasen
+98,andas,oddychac,breathe,respirer,spirare,ademen,disati,respirar,respirar,dychat,respirar,disati,respirare,dihati,atmen
+99,skratta,smiac sie,laugh,rire,ridere,lachen,smijati,riure,reir,smiat sa,rir,smijati,ridere,smejati,lachen
+100,se,widziec,see,voir,videre,zien,vidjeti,veure,ver,vidiet,ver,vidjeti,vedere,videti,sehen
+101,hora,slyszec,hear,entendre,audire,horen,cuti,escoltar,oir,pocut,ouvir,cuti,udire,slisati,horen
+102,veta,wiedziec,know ,savoir,scire,weten,znati,saber,saber,vediet,saber,znati,sapere,vedeti,wissen
+103,tanka,myslec,think,penser,putare,denken,misliti,pensar,pensar,mysliet,pensar,misliti,pensare,misliti,denken
+104,lukta,wachac,smell,sentir,olere,ruiken,njusiti,olorar,oler,citit,cheirar,njusiti,odorare,duhati,riechen
+105,frukta,bac sie,fear,craindre,timere,vrezen,strahovati,temer,temer,bat sa,temer,strahovati,temere,bati,furchten
+106,sova,spac,sleep,dormir,dormire,slapen,spavati,dormir,dormir,spat,dormir,spavati,dormire,spati,schlafen
+107,leva,zyc,live,vivre,vivere,leven,zivjeti,viure,vivir,zit,viver,zivjeti,vivere,ziveti,leben
+108,do,umierac,die,mourir,mori,sterven,umrijeti,morir,morir,umierat,morrer,umrijeti,morire,umreti,sterben
+109,doda,zabijac,kill,tuer,necare,doden,ubiti,matar,matar,usmrtit,matar,ubiti,uccidere,ubiti,toten
+110,strida,walczyc,fight,se battre,pugnare,vechten,bojovati,lluitar,pelear,zapasit ,lutar,bojovati,combattere,boriti,kampfen
+111,jaga,polowac,hunt,chasser,venari,jagen,loviti,cacar,cazar,byt na love,cacar,loviti,cacciare,loviti,jagen
+112,sla,uderzac,hit,frapper,pellere,slaan,udariti,colpejar,golpear,udriet,bater,udariti,colpire,udariti,schlagen
+113,skara,ciac,cut,couper,secare,snijden,sjeci,tallar,cortar, rezat ,cortar,sjeci,tagliare,rezati,schneiden
+114,dela,rozdzielac,split,fendre,scindere,splijten,razdijeliti,partir,partir,delit,fender,razdijeliti,dividere,razcepiti,spalten
+115,sticka,pchnac,stab,poignarder,traicere,steken,ubosti,apunyalar,apunalar,sturat,esfaquear,ubosti,pugnalare,zbosti,stechen
+116,klia,drapac,scratch,gratter,radere,krabben,cesati,gratar,aranar,skrabat,arranhar,cesati,graffiare,skrabati,kratzen
+117,grava,kopac,dig,creuser,fodere,graven,kopati,cavar,cavar,kopat,cavar,kopati,scavare,kopati,graben
+118,simma,plywac,swim,nager,natare,zwemmen,plivati,nedar,nadar,plavat,nadar,plivati,nuotare,plavati,schwimmen
+119,flyga,latac,fly ,voler,volare,vliegen,letjeti,volar,volar,lietiet,voar,letjeti,volare,leteti,fliegen
+120,ga,chodzic,walk,marcher,gradi,lopen,hodati,caminar,caminar,ist,andar,hodati,camminare,hoditi,gehen
+121,komma,przychodzic,come,venir,venire,komen,doci,venir,venir,prist,vir,doci,venire,priti,kommen
+122,ligga,lezec,lie,s'etendre,iacere,liggen,lezati,jeure,echarse,lezat,estar,lezati,distendersi,lezati,liegen
+123,sitta,siedziec,sit,s'asseoir,sedere,zitten,sjesti,seure,sentarse,sediet,sentar,sjesti,sedere,sedeti,sitzen
+124,sta,stac,stand,se lever,stare,staan,stati,estar dret,estar de pie,stat,estar,stati,stare in piedi,stati,stehen
+125,svanga,obracac,turn,tourner,vertere,draaien,skrenuti,girar,voltear,otocit ,virar,skrenuti,girare,obrniti,drehen
+126,falla,upadac,fall,tomber,cadere,vallen,pasti,caure,caer,padat,cair,pasti,cadere,padati,fallen
+127,ge,dawac,give,donner,dare,geven,dati,donar,dar,dat,dar,dati,dare,dajati,geben
+128,halla,trzymac,hold,tenir,tenere,houden,drzati,aguantar,sostener,drzat,segurar,drzati,tenere,drzati,halten
+129,klamma,zgniatac,squeeze,serrer,premere,knijpen,stisnuti,apretar,apretar,stlacit,apertar,stisnuti,spremere,stiskati,quetschen
+130,gnida,trzec,rub,frotter,fricare,wrijven,trti,fregar,frotar,triet,esfregar,trti,strofinare,treti,reiben
+131,tvatta,myc,wash,laver,lavare,wassen,prati,rentar,lavar,zmyt ,lavar,prati,lavare,umivati,waschen
+132,rensa,wycierac,wipe,essuyer,tergere,vegen,brisati,eixugar,limpiar,utierat,enxugar,brisati,asciugare,brisati,wischen
+133,dra,ciagnac,pull,tirer,trahere,trekken,vuci,estirar,tirar,tahat,puxar,vuci,tirare,vleci,ziehen
+134,trycka,pchac,push,pousser,pellere,duwen,gurati,empenyer,empujar,tlacit,empurrar,gurati,spingere,suniti,drucken
+135,kasta,rzucac,throw,jeter,iacere,werpen,baciti,llancar,tirar,hadzat,jogar,baciti,tirare,metati,werfen
+136,knyta,wiazac,tie,lier,stringere,knopen,vezati,lligar,atar,viazat,amarrar,vezati,legare,vezati,binden
+137,sy,szyc,sew,coudre,suere,naaien,siti,cosir,coser,sit,costurar,siti,cucire,sivati,nahen
+138,rakna,liczyc,count,compter,numerare,tellen,brojati,comptar,contar,pocitat,contar,brojati,contare,steti,zahlen
+139,saga,mowic,say,dire,dicere,zeggen,kazati,dir,decir,povedat,dizer,kazati,dire,reci,sagen
+140,sjunga,spiewac,sing,chanter,canere,zingen,pjevati,cantar,cantar,spievat,cantar,pjevati,cantare,peti,singen
+141,leka,grac,play,jouer,ludere,spelen,igrati,jugar,jugar,hrat ,jogar,igrati,giocare,igrati,spielen
+142,flyta,unosic sie,float,flotter,fluctuare,zweven,plutati,flotar,flotar,plavat,flutuar,plutati,galleggiare,plavati,schweben
+143,rinna,przeplywac,flow,couler,fluere,vloeien,teci,fluir,fluir,tiect,fluir,teci,fluire,teci,fliessen
+144,frysa,zamarzac,freeze,geler,gelare,vriezen,smrznuti,gelar,helar,mrznut,gelar,smrznuti,gelare,zamrzniti,frieren
+145,svalla,puchnac,swell,gonfler,inflare,zwellen,oteci,inflar,hincharse,opuchat,inchar,oteci,gonfiare,otekati,schwellen
+146,sol,slonce,sun,soleil,sol,zon,sunce,sol,sol,slnko,sol,sunce,sole,sonce,sonne
+147,mane,miesiac,moon,lune,luna,maan,mjesec,lluna,luna,mesiac,lua,mjesec,luna,luna,mond
+148,stjarna,gwiazda,star,etoile,stella,ster,zvijezda,estel,estrella,hviezda,estrela,zvijezda,stella,zvezda,stern
+149,vatten,woda,water,eau,aqua,water,voda,aigua,agua,voda,agua,voda,acqua,voda,wasser
+150,regn,deszcz,rain,pluie,pluvia,regen,kisa,pluja,lluvia,dazd,chuva,dazd,pioggia,dez,regen
+151,flod,rzeka,river,riviere,fluvius,rivier,rijeka,riu,rio,rieka,rio,rijeka,fiume,reka,fluss
+152,sjo,jezioro,lake,lac,lacus,meer,jezero,llac,lago,jazero,lago,jezero,lago,jezero,see
+153,hav,morze,sea,mer,mare,zee,more,mar,mar,more,mar,more,mare,morje,meer
+154,salt,sol,salt,sel,sal,zout,sol,sal,sal,sol,sal,sol,sale,sol,salz
+155,sten,kamien,stone,pierre,lapis,steen,kamen,pedra,piedra,kamen,pedra,kamen,pietra,kamen,stein
+156,sand,piasek,sand,sable,arena,zand,pijesak,sorra,arena,piesok,areia,pijesak,sabbia,pesek,sand
+157,damm,kurz,dust,poussiere,pulvis,stof,prasina,pols,polvo,prach,po,prasina,polvere,prah,staub
+158,jord,ziemia,earth,terre,terra,aarde,zemlja,terra,tierra,zem,terra,zemlja,terra,zemlja,erde
+159,moln,oblok,cloud,nuage,nimbus,wolk,oblak,nuvol,nube,mrak,nuvem,oblak,nuvola,oblak,wolke
+160,dimma,mgla,fog,brouillard,caligo,mist,magla,boira,niebla,hmla,neblina,magla,nebbia,megla,nebel
+161,himmel,niebo,sky,ciel,caelum,lucht,nebo,cel,cielo,nebo,ceu,nebo,cielo,nebo,himmel
+162,vind,wiatr,wind,vent,ventus,wind,vjetar,vent,viento,vietor,vento,vjetar,vento,veter,wind
+163,sno,snieg,snow,neige,nix,sneeuw,snijeg,neu,nieve,sneh,neve,snijeg,neve,sneg,schnee
+164,is,lod,ice,glace,glacies,ijs,led,gel,hielo,lad,gelo,led,ghiaccio,led,eis
+165,rok,dym,smoke,fumee,fumus,rook,dim,fum,humo,dym,fumaca,dim,fumo,dim,rauch
+166,eld,ogien,fire,feu,ignis,vuur,oganj,foc,fuego,ohen,fogo,oganj,fuoco,ogenj,feuer
+167,aska,popiol,ashes,cendres,cineres,as,pepeo,cendres,cenizas,popol,cinzas,pepeo,ceneri,pepel,asche
+168,brinna,palic,burn,bruler,ardere,branden,gorjeti,cremar,quemar,horiet,queimar,gorjeti,bruciare,zgati,brennen
+169,vag,droga,road,route,via,weg,cesta,carretera,camino,hradska,estrada,cesta,strada,cesta,strasse
+170,berg,gora,mountain,montagne,mons,berg,gora,muntanya,montana,vrch,montanha,gora,montagna,gora,berg
+171,rod,czerwony,red,rouge,ruber,rood,crven,vermell,rojo,cerveny,vermelho,crven,rosso,rdec,rot
+172,gron,zielony,green,vert,viridis,groen,zelen,verd,verde,zeleny,verde,zelen,verde,zelen,grun
+173,gul,zolty,yellow,jaune,flavus,geel,zut,groc,amarillo,zlty,amarelo,zut,giallo,zolt,gelb
+174,vit,bialy,white,blanc,albus,wit,bijel,blanc,blanco,biely,branco,bijel,bianco,bel,weiss
+175,svart,czarny,black,noir,niger,zwart,crn,negre,negro,cierny,preto,crn,nero,crn,schwarz
+176,natt,noc,night,nuit,nox,nacht,noc,nit,noche,noc,noite,noc,notte,noc,nacht
+177,dag,dzien,day,jour,dies,dag,dan,dia,dia,den,dia,dan,giorno,dan,tag
+178,ar,rok,year,an,annus,jaar,godina,any,ano,rok,ano,godina,anno,leto,jahr
+179,varm,cieply,warm,chaud,calidus,warm,topao,calid,calido,teply,quente,topao,caldo,topel,warm
+180,kall,zimny,cold,froid,frigidus,koud,hladan,fred,frio,chladny,frio,hladan,freddo,hladen,kalt
+181,full,pelny,full,plein,plenus,vol,pun,ple,lleno,plny,cheio,pun,pieno,poln,voll
+182,ny,nowy,new,nouveau,novus,nieuw,nov,nou,nuevo,novy,novo,nov,nuovo,nov,neu
+183,gammal,stary,old,vieux,vetus,oud,star,vell,viejo,stary,velho,star,vecchio,star,alt
+184,bra,dobry,good,bon,bonus,goed,dobar,bo,bueno,dobry,bom,dobar,buono,dober,gut
+185,dalig,zly,bad,mauvais,malus,slecht,los,dolent,malo,zly,mau,los,cattivo,zloben,schlecht
+186,rutten,zgnily,rotten,pourri,puter,rot,gnjio,podrit,podrido,hnily,estragado,gnjio,marcio,gnil,verrottet
+187,smutsig,brudny,dirty,sale,sordidus,vies,prljav,brut,sucio,spinavy,sujo,prljav,sporco,umazan,schmutzig
+188,rak,prosty,straight,droit,rectus,recht,ravan,recte,recto,rovny,reto,ravan,diritto,raven,gerade
+189,rund,okragly,round,rond,rotundus,rond,okrugao,rodo,redondo,gulaty,redondo,okrugao,rotondo,okrogel,rund
+190,vass,ostry,sharp,tranchant,acer,scherp,ostar,esmolat,afilado,ostry,afiado,ostar,aguzzo,oster,scharf
+191,slo,tepy,dull,emousse,hebes,stomp,tup,rom,desafilado,tupy,cego,tup,noioso,top,stumpf
+192,len,gladki,smooth,lisse,levis,glad,gladak,llis,suave,hladky,liso,gladak,liscio,gladek,glatt
+193,vat,mokry,wet,mouille,umidus,nat,mokar,humit,mojado,mokry,umido,mokar,bagnato,moker,nass
+194,torr,suchy,dry,sec,siccus,droog,suh,sec,seco,suchy,seco,suh,asciutto,suh,trocken
+195,ratt,prawidlowy,correct,juste,rectus,juist,ispravan,correcte,correcto,spravny,correto,ispravan,corretto,pravilen,richtig
+196,nara,bliski,near,proche,propinquus,dichtbij,blizak,prop,cerca,nedaleky,proximo,blizak,vicino,bliznji,nah
+197,langt bort,daleki,far,loin,longinquus,ver,dalek,lluny,lejos,daleky,distante,dalek,lontano,daljen,weit
+198,hoger,prawy,right,a droite,dexter,rechts,desni,dreta,derecha,pravy,direito,desni,destra,desni,rechts
+199,vanster,lewy,left,a gauche,sinister,links,lijevi,esquerra,izquierda,lavy,esquerdo,lijevi,sinistra,levi,links
+200,hos,przy,at,a,ad,aan,kod,a,a,pri,a,kod,a,pri,bei
+201,i,w,in,dans,in,in,u,dins,en,v,em,u,in,v,in
+202,med,z,with,avec,cum,met,sa,amb,con,s,com,sa,con,z,mit
+203,och,i,and,et,et,en,i,i,y,i,e,i,e,in,und
+204,om,jezeli,if,si,si,als,ako,si,si,ak,se,ako,se,ako,wenn
+205,eftersom,poniewaz,because,parce que,quia,omdat,zato sto,perque,porque,pretoze,porque,zato sto,perche,ker,weil
+206,namn,nazwa,name,nom,nomen,naam,ime,nom,nombre,meno,nome,ime,nome,ime,name
