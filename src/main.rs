@@ -1,6 +1,7 @@
 mod csv_helper;
 mod letter_helper;
 
+use rayon::prelude::*;
 use std::collections::HashMap;
 
 fn create_words(letters: Vec<char>, length: usize) -> Vec<String> {
@@ -60,31 +61,28 @@ fn all_words(words: Vec<String>) -> Vec<String> {
         unique_letters.len()
     );
 
-    // Generate all words for lengths 1 to max_len
-    let mut result = Vec::new();
-    for len in 1..=max_len {
-        let words = create_words(unique_letters.clone(), len);
-        // Filter words that respect max letter frequencies
-        for word in words {
-            let word_counts = count_letters(&word);
-            let mut valid = true;
-            for (c, count) in word_counts {
-                if let Some(&max_count) = max_letter_freq.get(&c) {
-                    if count > max_count {
-                        valid = false;
-                        break;
-                    }
-                } else {
-                    // Character not in any of the record's words
-                    valid = false;
-                    break;
-                }
-            }
-            if valid {
-                result.push(word);
-            }
-        }
-    }
+    // Generate all words for lengths 1 to max_len in parallel
+    let result: Vec<String> = (1..=max_len)
+        .into_par_iter()
+        .flat_map(|len| {
+            let words = create_words(unique_letters.clone(), len);
+            // Filter words that respect max letter frequencies in parallel
+            words
+                .into_par_iter()
+                .filter(|word| {
+                    let word_counts = count_letters(&word);
+                    word_counts.iter().all(|(c, count)| {
+                        if let Some(&max_count) = max_letter_freq.get(&c) {
+                            count <= &max_count
+                        } else {
+                            // Character not in any of the record's words
+                            false
+                        }
+                    })
+                })
+                .collect::<Vec<String>>()
+        })
+        .collect();
 
     result
 }
@@ -101,7 +99,7 @@ fn minimize_trans_cost(words: &Vec<String>) -> String {
     println!("Generated {} possible words", possible_words.len());
 
     let best_fit = possible_words
-        .iter()
+        .par_iter()
         .min_by(|w1, w2| {
             // Pass references to total_distance to avoid moving `words`
             let dist1 = letter_helper::total_distance(w1.as_str(), words);
